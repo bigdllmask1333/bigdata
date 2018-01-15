@@ -1,0 +1,12 @@
+---------------------------------------------------------------
+[ 2018-01-01T21:09:48+08:00 ] 127.0.0.1 127.0.0.1 GET /wdata/admin.php/admin/data/data_show/type2/%E7%9F%A5%E7%BD%91/min_typename/MZ
+[ info ] 127.0.0.1/wdata/admin.php/admin/data/data_show/type2/%E7%9F%A5%E7%BD%91/min_typename/MZ [运行时间：0.207106s][吞吐率：4.83req/s] [内存消耗：7,110.18kb] [文件加载：85]
+[ error ] [8]未定义数组索引: type1[D:\wamp\www\wdata\app\admin\controller\Data.php:122]
+---------------------------------------------------------------
+[ 2018-01-01T21:10:10+08:00 ] 127.0.0.1 127.0.0.1 GET /wdata/admin.php/admin/data/data_show/type2/%E7%9F%A5%E7%BD%91/min_typename/MZ
+[ info ] 127.0.0.1/wdata/admin.php/admin/data/data_show/type2/%E7%9F%A5%E7%BD%91/min_typename/MZ [运行时间：0.206490s][吞吐率：4.84req/s] [内存消耗：7,110.19kb] [文件加载：85]
+[ error ] [8]未定义数组索引: type2[D:\wamp\www\wdata\app\admin\controller\Data.php:122]
+---------------------------------------------------------------
+[ 2018-01-01T21:42:22+08:00 ] 127.0.0.1 127.0.0.1 GET /wdata/admin.php/admin/data/data_show/type2/%E7%9F%A5%E7%BD%91/min_typename/MZ
+[ info ] 127.0.0.1/wdata/admin.php/admin/data/data_show/type2/%E7%9F%A5%E7%BD%91/min_typename/MZ [运行时间：0.219097s][吞吐率：4.56req/s] [内存消耗：7,130.64kb] [文件加载：86]
+[ error ] [8]未定义数组索引: type[D:\wamp\www\wdata\app\admin\controller\Data.php:130]

@@ -1,0 +1,4 @@
+---------------------------------------------------------------
+[ 2018-01-04T00:34:15+08:00 ] 127.0.0.1 127.0.0.1 GET /wdata/admin.php/admin/publics/logout
+[ info ] 127.0.0.1/wdata/admin.php/admin/publics/logout [运行时间：0.119228s][吞吐率：8.39req/s] [内存消耗：6,183.07kb] [文件加载：76]
+[ error ] [8]Use of undefined constant index - assumed 'index'[D:\wamp\www\wdata\app\admin\controller\Publics.php:77]

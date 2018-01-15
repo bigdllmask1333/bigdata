@@ -1,0 +1,12 @@
+ 35 =>
+    array (
+      'id' => 99,
+      'type2' => '万方',
+      'min_typename' => 'HD',
+    ),
+    36 =>
+    array (
+      'id' => 100,
+      'type2' => '万方',
+      'min_typename' => 'HD',
+    ),

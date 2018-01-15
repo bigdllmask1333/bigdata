@@ -1,0 +1,4 @@
+---------------------------------------------------------------
+[ 2017-12-23T11:59:31+08:00 ] 127.0.0.1 127.0.0.1 GET /wdata/admin.php/admin/data/add_data
+[ info ] 127.0.0.1/wdata/admin.php/admin/data/add_data [运行时间：0.165776s][吞吐率：6.03req/s] [内存消耗：7,728.44kb] [文件加载：93]
+[ error ] [8]未定义数组索引: webdoor[D:\wamp\www\wdata\runtime\temp\6368d1d69f3fa1c135e05263c4fab1ff.php:540]

@@ -1,0 +1,87 @@
+/**首页**/
+#content{width:980px;margin:-10px auto}
+
+.banner_bg{width:980px;margin:0 auto; padding-top:10px;height:446px;position:relative}
+.banner_box{position:relative;overflow:hidden;height:446px;width:100%}
+.banner_content{width:1000px;margin:0 auto;height:446px;position:relative}
+.banner_content h1 {padding-bottom:10px;font-size:28px;font-weight:600}
+.banner_content h2 {padding-bottom:20px;font-size:21px;font-weight:600}
+.banner_content p{padding-bottom:5px}
+.banner_content a.png { display:block;margin:11px 0; width:195px; height:54px; background:url(../images/bt_down.png) no-repeat}
+.banner_content a.png:hover { background-position:left bottom}
+.banner_content a.qq { font-size:14px;color:#fff}
+.banner_shadow { height:5px; background:url("../images/nav_shadow_605453.png") repeat-x; /*opacity:0.15; filter:alpha(opacity=15);*/ width:100%; position:absolute; top:0; z-index:1001}
+
+#banner_wrap3{position:absolute;width:100%;top:0;height:456px}
+#banner_wrap3 .banner_bg{width:1200px;background:url("../images/banner03_BG.jpg") no-repeat scroll center -64px transparent}
+#bg_left{position:absolute;left:0;width:50%;background:url("../images/banner03_BG_left.jpg") repeat-x  scroll 0px -64px transparent;height:100%}
+#bg_right{position:absolute;right:0;height:100%;width:50%;background:url("../images/banner03_BG_right.jpg") repeat-x scroll 0px -64px transparent}
+
+
+.content_wrap{width:100%;margin:0 auto;height:456px;position:absolute;top:0;left:0}
+
+
+/*支持css3*/
+#accelerate {position:absolute;left:130px;top:450px;z-index:9}
+#banner3_main {position:absolute;left:160px;top:550px;z-index:8}
+#info4{	position:absolute;left:130px;top:150px;z-index:7;opacity:0;-moz-transition-property: opacity;-webkit-transition-property: opacity;-o-transition-property: opacity}
+
+/*不支持css3*/
+.fallback #accelerate {position:absolute;left:130px;_left:40px;top:110px}
+.fallback #banner3_main {position:absolute;left:160px;_left:70px;top:160px}
+.fallback #info4{display:none;position:absolute;left:130px;_left:40px;top:40px;opacity:1}
+
+#product_download{width:286px;float:right;color:#FFF;position:absolute;top:50px;right:10px}
+
+#product_download p{line-height:28px;}
+
+/*底部波浪*/
+#banner_bolang_bg_1{width:997px;height:85px;background:url("../images/wave1.png") repeat-x;position:absolute; top:371px;width:400%;left:-236px;z-index:999}
+#banner_bolang_bg_2{width:1009px;height:100px;background:url("../images/wave2.png") repeat-x;position:absolute;top:356px;width:400%;left:0px;z-index:998}
+
+
+/*banner切换按钮*/
+#switch{display:none;margin:359px auto 0;width:1000px;height:100px;position:relative;z-index:1005}
+#switch span{position:absolute;bottom:32px;width:10px;overflow:hidden;height:10px;cursor:pointer}
+#switch1{left:458px;background:url("../images/switch.png") -10px 0 no-repeat}
+#switch2{left:472px;background:url("../images/switch.png") 0 0 no-repeat}
+#switch3{left:486px;background:url("../images/switch.png") 0 0 no-repeat}
+
+
+/*特点*/
+.feature{overflow:hidden;margin-bottom:80px;zoom:1}
+.feature dl{float:left; padding-top:120px;width:210px;background:url(../images/feature.png) no-repeat}
+.feature dl.d1 { background-position:-250px 0}
+.feature dl.d2 { background-position:-500px 0}
+.feature dl.d3 { background-position:-750px 0}
+.feature dt { padding-bottom:10px; text-align:center; font-size:18px}
+.feature dd{font-size:12px;line-height:21px;color:#555}
+.feature .seperate{float:left;margin:0 25px}
+
+/*功能*/
+.function .hd h3 {margin-top:0px;margin-bottom:20px; padding-left:8px; line-height:100%; font-size:20px; color:#46b9f0; border-left:solid 5px #46b9f0}
+
+.function .hd span {font-weight:normal;font-size:14px; color:red;}
+
+.function .bd {overflow:hidden;margin-bottom:30px}
+.function .bd dl{float:left;padding-left:54px;margin:0 60px 35px 20px;width:335px; height:62px; background:url(../images/function.png) no-repeat}
+.function .bd dl.d1 { background-position:0 -65px}
+.function .bd dl.d2 { background-position:0 -130px}
+.function .bd dl.d3 { background-position:0 -195px}
+.function .bd dl.d4 { background-position:0 -260px}
+.function .bd dl.d5 { background-position:0 -325px}
+.function .bd dl.d6 { background-position:0 -390px}
+.function .bd dl.d7 { background-position:0 -455px}
+.function .bd dt{font-size:16px;font-weight:bold;color:#333;padding-bottom:10px}
+.function .bd dd a{font-size:12px;color:#555}
+
+/*改进*/
+.improve h3 {margin-bottom:25px; padding-left:8px; line-height:100%; font-size:20px; color:#46b9f0; border-left:solid 5px #46b9f0}
+.improve ul {margin-bottom:50px; padding-left:10px}
+.improve li { float:left; width:33%}
+.improve li a { padding-left:10px; line-height:21px; background:url(../images/icon.png) no-repeat}
+.improve li a:hover { text-decoration:underline; background-position:0 -30px} 
+
+.zoom { text-align:center;overflow:hidden;background:#fffeec url(../images/1111/bg_index_zoom.jpg)}
+.zoom div {position:relative;margin:0 auto; width:1000px}
+.zoom span a { position:absolute; right:0; top:10px}

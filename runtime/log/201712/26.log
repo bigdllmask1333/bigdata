@@ -1,0 +1,16 @@
+---------------------------------------------------------------
+[ 2017-12-26T22:18:28+08:00 ] 127.0.0.1 127.0.0.1 GET /wdata/admin.php/admin/data/ch_data
+[ info ] 127.0.0.1/wdata/admin.php/admin/data/ch_data [运行时间：0.141825s][吞吐率：7.05req/s] [内存消耗：7,099.56kb] [文件加载：86]
+[ error ] [8]未定义数组索引: type2[D:\wamp\www\wdata\app\admin\common.php:45]
+---------------------------------------------------------------
+[ 2017-12-26T22:19:12+08:00 ] 127.0.0.1 127.0.0.1 GET /wdata/admin.php/admin/data/ch_data
+[ info ] 127.0.0.1/wdata/admin.php/admin/data/ch_data [运行时间：0.162808s][吞吐率：6.14req/s] [内存消耗：7,096.09kb] [文件加载：87]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'mintypename' in 'field list'[D:\wamp\www\wdata\thinkphp\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2017-12-26T22:35:19+08:00 ] 127.0.0.1 127.0.0.1 GET /wdata/admin.php/admin/data/ch_data
+[ info ] 127.0.0.1/wdata/admin.php/admin/data/ch_data [运行时间：0.190491s][吞吐率：5.25req/s] [内存消耗：7,256.15kb] [文件加载：88]
+[ error ] [8]未定义数组索引: id[D:\wamp\www\wdata\runtime\temp\6f2794c5009286776bc3843c8bf255ec.php:568]
+---------------------------------------------------------------
+[ 2017-12-26T22:36:25+08:00 ] 127.0.0.1 127.0.0.1 GET /wdata/admin.php/admin/data/ch_data
+[ info ] 127.0.0.1/wdata/admin.php/admin/data/ch_data [运行时间：0.187851s][吞吐率：5.32req/s] [内存消耗：7,649.15kb] [文件加载：90]
+[ error ] [8]未定义数组索引: id[D:\wamp\www\wdata\runtime\temp\6f2794c5009286776bc3843c8bf255ec.php:568]

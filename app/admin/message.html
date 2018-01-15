@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+	<title>留言板-^(*￣(oo)￣)^</title>
+	<meta name="keywords" content="在线,CSS,CSS 校验,格式化,xml转json 工具,在线工具,json视图,可视化,程序,服务器,域名注册,正则表达式,测试,在线json格式化工具,json 格式化,json格式化工具,json字符串格式化,json 在线查看器,json在线,json 在线验证,json tools online,在线文字对比工具" />
+		<meta name="description" content="在线,CSS,CSS 校验,格式化,xml转json 工具,在线工具,json视图,可视化,程序,服务器,域名注册,正则表达式,测试,在线json格式化工具,json 格式化,json格式化工具,json字符串格式化,json 在线查看器,json在线,json 在线验证,json tools online,在线文字对比工具">
+	<script src="//cdn.bootcss.com/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/statics/layer/layer.js"></script>
+	<link href="//cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+	<script src="//cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/statics/self/css/main.css">
+</head>
+<body>
+	<div class="container-fluid">
+	<include file="Public/head" liu='active'/>
+	<!-- <p class="bg-warning msgs">...</p> -->
+	<div class="left_kuang">
+		<div class="left_main">
+			<div class="min-title"	>
+				<h1>在线留言板</h1>
+			</div>
+			<div id="cyReward" role="cylabs" data-use="reward"></div>
+			<div id="SOHUCS" sid="123"></div>
+			<script type="text/javascript" charset="utf-8" src="https://changyan.itc.cn/js/lib/jquery.js"></script>
+			<script type="text/javascript" charset="utf-8" src="https://changyan.sohu.com/js/changyan.labs.https.js?appid=cyt1GVIeW"></script>
+			<script charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/changyan.js" ></script>
+			<script type="text/javascript">
+			window.changyan.api.config({
+			appid: 'cyt1GVIeW',
+			conf: 'prod_a05b1115e27c6e3da36c9124cfd5cf4b'
+			});
+			</script>
+		<!-- 	<iframe src="http://cssnb.com/iframe/unicode/encode.html" style="width: 100%;height:430px;" frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no" allowtransparency="yes"></iframe> -->
+		</div>
+	</div>
+	<include file="Public/right_box" more='active'/>
+	<include file="Public/button" more='active'/>
+	</div>
+</body>
+</html>
