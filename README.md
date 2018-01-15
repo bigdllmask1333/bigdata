@@ -1,7 +1,9 @@
-# 我的第一个GitHub项目
+# 仿淘宝 知网万网数据库账号售卖网站开发的
+## 淘宝上的网站   http://www.tencentwegame.org/
+## 本项目演示地址  [wdata](http://wwx.cssnb.com ) ，
+欢迎访问。  http://wwx.cssnb.com   
 
-这是项目 [helloworld](https://github.com/gotgithub/helloworld) ，
-欢迎访问。
+
 
 这个项目的版本库是 **Git格式** ，在 Windows、Linux、Mac OS X
 平台都有客户端工具可以访问。虽然版本库只提供Git一种格式，
